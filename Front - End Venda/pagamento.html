@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    
+</head>
+<body>
+    <br><br><br>
+    <div class="subtitulo">
+        <h3>Preencha os seus dados para fazer o curso!!</h3>
+    </div> 
+<div class="pagamento">
+    <div class="form">
+<label for="nome">Nome</label>
+        <input type="text" id="nomeid" placeholder="Oberdan" required="required" name="nome" />
+        
+        <br>
+<label for="fone">Fone</label>
+        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+        
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="emailid" placeholder="Oberdan@gmail.com" name="email" />
+        
+        <br>
+<label for="CPF">CPF</label>
+        <input type="text" id="emailid" placeholder="xxx.xxxxxx-xx" name="CPF" />
+        
+        <br>
+
+        <input type="submit" class="enviar" onclick="Enviar();" value="Cadastrar" />
+    </div>
+    <br>
+    <br>
+    <div class="subtitulo">
+        <h3>Cartão:</h3>
+    </div>
+     <div class="form">
+         <label for="nome">Número</label>
+        <input type="text" id="nomeid" placeholder="xxxx xxxx xxxx" required="required" name="nome" />
+        <br>
+        <label for="fone">CV</label>
+        <input type="text" id="foneid" placeholder="xxx" name="fone" />
+        <br>
+        <label for="email">Titular</label>
+        <input type="text" id="emailid" placeholder="Oberdan" name="email" />
+        <br>
+        <label for="email">Bandeira</label>
+        <input type="text" id="emailid" placeholder="Escolha a bandeira" list="faixa">
+          <datalist id="faixa">
+                <option >Visa</option>
+                <option >Mastercard</option>
+                <option >Elo</option>
+                <option>Nunbank</option>
+                <option>Black</option>
+            </datalist>
+        <br>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Pagar" />
+    </div>
+</div>
+      <script src="Index.js"></script>
+</body>
+</html>

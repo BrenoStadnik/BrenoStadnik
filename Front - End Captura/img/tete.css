@@ -1,0 +1,115 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+header {
+  color: white;
+  background-color: #7a073e;
+}
+
+.titulo-pagina {
+  font-family: 'Oswald', sans-serif;
+  padding: 12px 5px;
+  margin: 0px 0px;
+  border-bottom: 2px solid black;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 7px;
+    background-image: linear-gradient(to right,
+    rgba(200, 200, 200, 0),
+    rgba(200, 200, 200, 1),
+    rgba(200, 200, 200, 0));
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 1px;
+    padding-bottom: .5em;
+    margin-bottom: 0;
+    display: block;
+    clear: right;
+}
+
+.buscador {
+  margin-bottom: 1em;
+  border-radius: 15px;
+  border: 1px solid #c2c2c2;
+  padding: .5em;
+  margin-top: 15px;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid lightgrey;
+  width: 20%;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #ebebeb;
+}
+
+.botao {
+  text-transform: uppercase;
+  background-color: #7a073e;
+  border: 0;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 1.8em;
+  margin: 10px 0;
+  float: right;
+  display: block;
+  cursor: pointer;
+}
+.botao:active {
+  background-color: #df5999;
+  box-shadow: 0 0 4px red;
+}
+.formulario {
+  margin: 1em 0;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+.campo-superior input {
+  width: 100%;
+  padding: .5em;
+  margin-bottom: 8px;
+}
+
+.campos-inferiores {
+  display: inline-block;
+  width: 33.12%;
+}
+
+.campos-inferiores input{
+  padding: .5em;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.rodape {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  margin: auto auto;
+  padding: 10px 5px;
+}

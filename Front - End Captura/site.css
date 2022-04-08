@@ -1,0 +1,43 @@
+
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+.col{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nome{
+    margin-left: 25px;
+
+}
+
+.resumo{
+    margin-left: 25px;
+        margin-top: 10px;
+
+}
+
+.login{
+    margin-left: 23px;
+        margin-top: 10px;
+
+}
+
+.senha{
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.tudo{
+    margin-top: 80px;
+    margin-left: 100px;
+    color: black;
+}
+
+
+
+
+
